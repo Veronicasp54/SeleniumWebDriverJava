@@ -4,10 +4,12 @@ O curso visa enisinar o uso da ferramenta Selenium, utilizando a linguagem Java.
 ## Selenium 
 Selenium WebDriver é uma API de automação orientada a objetos que dirige nativamente um navegador como um usuário faria.
 
+##Test Automation University
+TAU https://testautomationu.applitools.com/
+
 ### Ferramentas 
  * Selenium WebDriver Java
  * IntelliJ
-
 
 ## Pré-requisito
  * Java 
