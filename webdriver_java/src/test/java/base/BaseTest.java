@@ -18,13 +18,13 @@ public class BaseTest {
     }
 
     public void setUp(){
-        System.setProperty("webdriver.chrome.driver","resources/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","CursoAutomacaoDeTestes/resources/chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("http://the-internet.herokuapp.com/");
-       // System.out.println("Sistema acessado: " + driver.getTitle());
+       System.out.println("Sistema acessado: " +" "+ driver.getTitle());
 
-        clickLink();
+       clickLink();
 
     }
 
